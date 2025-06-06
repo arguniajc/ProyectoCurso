@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    h1 {
+      text-align: center;
+      color: #151615;
+      font-family: Arial, sans-serif;
+      font-size: 2.5em;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      align-content: center;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    h2 {
+      color: #151615;
+      font-family: Arial, sans-serif;
+      font-size: 1.8em;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      text-align: center;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    p {
+      font-family: Arial, sans-serif;
+      font-size: 1em;
+      line-height: 1.6;
+      color: #333;
+      margin: 20px;
+      text-align: justify;
+      text-indent: 20px;
+      font-weight: normal;
+      text-transform: none;
+    }
+    .parrafo-inicial {
+      text-align: justify;
+      line-height: 1.6;
+      font-family: Arial, sans-serif;
+      font-size: 1em;
+      color: #333;
+      margin: 20px;
+      text-indent: 20px;
+      font-weight: normal;
+      text-transform: none;
+      text-indent: 20px;
+      text-align: justify;
+      margin-bottom: 20px;
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #f9f9f9;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .parrafo-inicial::first-letter {
+      font-size: 5em;
+      font-weight: bold;
+      float: left;
+      line-height: 1;
+      margin-right: 8px;
+      color: #000000;
+      text-transform: uppercase;
+      font-family: Arial, sans-serif;
+    }
+    .imagen-izquierda {
+      float: right;
+      margin-left: 20px;
+      margin-top: 10px;
+      width: 300px;
+    }
+    .imagen-g {
+      display: block;
+      margin: auto;
+      width: 300px;
+      max-width: 200px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      position: static;
+      transition: transform 0.3s ease;
+    }
+
+    .imagen-h {
+      display: block;
+      margin: auto;
+      width: 300px;
+      max-width: 200px;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      position: static;
+      transition: transform 0.3s ease;
+    }
+
+    a {
+      color: #007bff;
+      text-decoration: none;
+      font-size: 1.2em;
+      margin: 10px 0;
+      display: inline-block;
+      transition: color 0.3s ease, text-decoration 0.3s ease;
+      text-align: center;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-decoration: none;
+      font-size: 1.2em;
+      margin: 10px 0;
+      display: inline-block;
+      transition: color 0.3s ease, text-decoration 0.3s ease;
+      text-align: center;
+      font-weight: bold;
+      text-transform: uppercase;
+
+      font-family: Arial, sans-serif;
+    }
+    a:hover {
+      text-decoration: underline;
+      color: #0056b3;
+    }
+
+    hr {
+      border: 0;
+      height: 1px;
+      background-color: #ccc;
+      margin: 20px 0;
+    }
+    body {
+      background-color: #d8cbcb;
+      font-family: Arial, sans-serif;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+    article {
+      margin-bottom: 40px;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fbfff8;
+    border: 1px solid #000000;
+  }
+
+  
+  th, td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    color: #150f0f;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: #007bff;
+                
+  }
+
+    th {
+        background-color: #2d8a2d;
+        color: white;
+    }
+  caption {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    color: #333;
+    text-align: center;
+  }
+    
+
+  </style>
+  <body>
+    <h1>¿Qué es Lorem Ipsum?</h1>
+    <hr />
+    <h2>Indice</h2>
+
+    <hr />
+    <ol>
+      <li>
+        <a href="#parrafo1">Parrafo I</a>
+      </li>
+      <li>
+        <a href="#parrafo2">Parrafo II</a>
+      </li>
+      <li>
+        <a href="#parrafo3">Parrafo III</a>
+      </li>
+      <li>
+        <a href="#foto01">Foto I</a>
+      </li>
+      <li>
+        <a href="#foto02">Foto II</a>
+      </li>
+      <li>
+        <a href="#video01">Video</a>
+      </li>
+      <li>
+        <a href="#listas">Listas</a>
+      </li>
+      <li>
+        <a href="#table">Tabla</a>
+      </li>
+    </ol>
+
+    <hr />
+
+    <article id="parrafo1">
+      <h2>Parrafo I</h2>
+      <p class="parrafo-inicial">
+        <img
+          src="https://fastly.picsum.photos/id/389/536/354.jpg?hmac=mw2HAbrZOUQP05D91hdDGU3_1rhX_Hl8a2At_atV3PA"
+          alt="Imagen decorativa"
+          class="imagen-izquierda"
+        />
+        Lorem Ipsum es simplemente el texto de relleno de las imprentas y
+        archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de
+        las industrias desde el año 1500, cuando un impresor (N. del T. persona
+        que se dedica a la imprenta) desconocido usó una galería de textos y los
+        mezcló de tal manera que logró hacer un libro de textos especimen. No
+        sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno
+        en documentos electrónicos, quedando esencialmente igual al original.
+        Fue popularizado en los 60s con la creación de las hojas "Letraset", las
+        cuales contenian pasajes de Lorem Ipsum, y más recientemente con
+        software de autoedición, como por ejemplo Aldus PageMaker, el cual
+        incluye versiones de Lorem Ipsum.
+      </p>
+
+      <p>
+        Lorem Ipsum es simplemente el texto de relleno de las imprentas y
+        archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de
+        las industrias desde el año 1500, cuando un impresor (N. del T. persona
+        que se dedica a la imprenta) desconocido usó una galería de textos y los
+        mezcló de tal manera que logró hacer un libro de textos especimen. No
+        sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno
+        en documentos electrónicos, quedando esencialmente igual al original.
+        Fue popularizado en los 60s con la creación de las hojas "Letraset", las
+        cuales contenian pasajes de Lorem Ipsum, y más recientemente con
+        software de autoedición, como por ejemplo Aldus PageMaker, el cual
+        incluye versiones de Lorem Ipsum.
+      </p>
+      <a href="#">Volver al indice</a>
+      <hr />
+    </article>
+
+    <article id="parrafo2">
+      <h1>¿Qué es Lorem Ipsum?</h1>
+      <h2>Parrafo II</h2>
+      <p class="parrafo-inicial">
+        <img
+          src="https://picsum.photos/id/1084/536/354?grayscale"
+          alt="Imagen decorativa"
+          class="imagen-izquierda"
+        />
+        Lorem Ipsum es simplemente el texto de relleno de las imprentas y
+        archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de
+        las industrias desde el año 1500, cuando un impresor (N. del T. persona
+        que se dedica a la imprenta) desconocido usó una galería de textos y los
+        mezcló de tal manera que logró hacer un libro de textos especimen. No
+        sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno
+        en documentos electrónicos, quedando esencialmente igual al original.
+        Fue popularizado en los 60s con la creación de las hojas "Letraset", las
+        cuales contenian pasajes de Lorem Ipsum, y más recientemente con
+        software de autoedición, como por ejemplo Aldus PageMaker, el cual
+        incluye versiones de Lorem Ipsum.
+      </p>
+
+      <p>
+        Lorem Ipsum es simplemente el texto de relleno de las imprentas y
+        archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de
+        las industrias desde el año 1500, cuando un impresor (N. del T. persona
+        que se dedica a la imprenta) desconocido usó una galería de textos y los
+        mezcló de tal manera que logró hacer un libro de textos especimen. No
+        sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno
+        en documentos electrónicos, quedando esencialmente igual al original.
+        Fue popularizado en los 60s con la creación de las hojas "Letraset", las
+        cuales contenian pasajes de Lorem Ipsum, y más recientemente con
+        software de autoedición, como por ejemplo Aldus PageMaker, el cual
+        incluye versiones de Lorem Ipsum.
+      </p>
+      <a href="#">Volver al indice</a>
+      <hr />
+    </article>
+
+    <article id="parrafo3">
+      <h1>¿Qué es Lorem Ipsum?</h1>
+      <h2>Parrafo III</h2>
+      <p class="parrafo-inicial">
+        <img
+          src="https://picsum.photos/id/237/536/354"
+          alt="Imagen decorativa"
+          class="imagen-izquierda"
+        />
+        Lorem Ipsum es simplemente el texto de relleno de las imprentas y
+        archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de
+        las industrias desde el año 1500, cuando un impresor (N. del T. persona
+        que se dedica a la imprenta) desconocido usó una galería de textos y los
+        mezcló de tal manera que logró hacer un libro de textos especimen. No
+        sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno
+        en documentos electrónicos, quedando esencialmente igual al original.
+        Fue popularizado en los 60s con la creación de las hojas "Letraset", las
+        cuales contenian pasajes de Lorem Ipsum, y más recientemente con
+        software de autoedición, como por ejemplo Aldus PageMaker, el cual
+        incluye versiones de Lorem Ipsum.
+      </p>
+
+      <p>
+        Lorem Ipsum es simplemente el texto de relleno de las imprentas y
+        archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de
+        las industrias desde el año 1500, cuando un impresor (N. del T. persona
+        que se dedica a la imprenta) desconocido usó una galería de textos y los
+        mezcló de tal manera que logró hacer un libro de textos especimen. No
+        sólo sobrevivió 500 años, sino que tambien ingresó como texto de relleno
+        en documentos electrónicos, quedando esencialmente igual al original.
+        Fue popularizado en los 60s con la creación de las hojas "Letraset", las
+        cuales contenian pasajes de Lorem Ipsum, y más recientemente con
+        software de autoedición, como por ejemplo Aldus PageMaker, el cual
+        incluye versiones de Lorem Ipsum.
+      </p>
+      <a href="#">Volver al indice</a>
+      <hr />
+    </article>
+    <article id="foto01">
+      <img
+        src="https://picsum.photos/200/300.webp"
+        alt="Foto aleatoria"
+        class="imagen-g"
+      />
+
+      <a href="#">Volver al indice</a>
+    </article>
+
+    <article id="foto02">
+      <img
+        src="https://picsum.photos/200/300.jpg"
+        alt="Foto aleatoria"
+        class="imagen-h"
+      />
+      <a href="#">Volver al indice</a>
+    </article>
+
+    <article id="video01">
+      <h2>Video de ejemplo en MP4</h2>
+      <video
+        controls
+        autoplay
+        muted
+        loop
+        style="
+          width: 100%;
+          max-width: 600px;
+          border-radius: 10px;
+          box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          display: block;
+          margin: 20px auto;
+        "
+      >
+        <source
+          src="https://www.w3schools.com/html/mov_bbb.mp4"
+          type="video/mp4"
+        />
+        Tu navegador no soporta la etiqueta de video.
+      </video>
+      <a href="#">Volver al indice</a>
+    </article>
+
+    <article id="listas">
+      <ol>
+        <li>lista ordenada 1</li>
+        <li>lista ordenada 2</li>
+        <li>lista ordenada 3</li>
+        <li>lista ordenada 4</li>
+        <li>lista ordenada 5</li>
+      </ol>
+      <ul>
+        <li>lista desordenda 1</li>
+        <li>lista desordenda 2</li>
+        <li>lista desordenda 3</li>
+        <li>lista desordenda 4</li>
+        <li>lista desordenda 5</li>
+      </ul>
+    </article>
+
+    <hr />
+    <a href="#">Volver al indice</a>
+
+    <article id="table">
+      <table>
+        <thead>
+          <caption >
+            Tabla de ejemplo
+          </caption>
+          <tr>
+            <th >Descripcion</th>
+            <th >Cantidad</th>
+            <th >Valor</th>
+            <th >Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Tomate</td>
+            <td>1</td>
+            <td >20</td>
+            <td >40</td>
+          </tr>
+          <tr >
+            <td>Cilantro</td>
+            <td>1</td>
+            <td>10</td>
+            <td>10</td>
+          </tr>
+          <tr >
+            <td>Zapallo</td>
+            <td>4</td>
+            <td>5</td>
+            <td>20</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">Valor cuenta</td>
+            <td>70</td>
+          </tr>
+        </tfoot>
+      </table>
+    </article>
+
+    <hr />
+
+    <article>
+      <footer>
+        <p style="text-align: center; font-size: 0.9em; color: #666">
+          © 2023 Mi Página Web. Todos los derechos reservados.
+        </p>
+      </footer>
+    </article>
+
+    <hr />
+  </body>
+</html>
